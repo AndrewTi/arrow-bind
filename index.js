@@ -13,7 +13,7 @@
 
     lib.bindArrow = (func, context) => {
         if(typeof func !== 'function' || typeof context !== 'object' && !context)
-            throw TypeError;
+            throw new TypeError('Wrong type of the params');
 
         function bindMe() {
             return eval(func.toString());
