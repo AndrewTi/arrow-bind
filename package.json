@@ -1,0 +1,28 @@
+{
+  "name": "arrow-bind",
+  "version": "1.0.0",
+  "description": "Change context in arrow function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewTi/arrow-bind.git"
+  },
+  "keywords": [
+    "arrow",
+    "change",
+    "context",
+    "bind"
+  ],
+  "author": {
+    "name": "Andrey Tyndyk",
+    "email": "andreytyndyk@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewTi/arrow-bind/issues"
+  },
+  "homepage": "https://github.com/AndrewTi/arrow-bind#readme"
+}
