@@ -3,17 +3,17 @@
             typeof global == 'object' && global ||
             this
 
-    const lib = {};
+    const awb = {};
 
     if(typeof module == 'object' && module && module.exports) {
-        module.exports = lib;
+        module.exports = awb;
     }else {
-        root.lib;
+        root.awb = awb;
     }
 
-    lib.bindArrow = (func, context) => {
+    awb.bindArrow = (func, context) => {
         if(typeof func !== 'function' || typeof context !== 'object' && !context)
-            throw new TypeError('Wrong type of the params');
+            throw new TypeError('Wrong type of the passed params');
 
         function bindMe() {
             return eval(func.toString());
